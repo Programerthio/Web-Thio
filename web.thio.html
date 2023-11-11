@@ -1,0 +1,72 @@
+<html>
+    <head>
+	    <meta charset="utf-8" />
+	    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+	    <meta name="viewport" content="width=devise-width, initial-scale=1">
+        <title>Thio Rivaldi Gunawan</title>
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<link rel="stylesheet" href="web.thio.css"/>
+    </head>
+    <body>
+	    <header class="head">
+			<div class="logo" onclick="refreshPage()">
+				<img src="logo-removebg-preview.png" alt="logo" class="logo-img"/>
+				<h1 class="logo-title">THIO</h1>
+			</div>
+			<nav>
+			    <ul>
+					<li><a href="#tentang">TENTANG</a></li>
+					<li><a href="mailto:thiorivaldigunawan123@gmail.com">KONTAK</a></li>
+				<ul>
+			</nav>
+			<button class="btn" onclick="redirinstagram()">FOLLOW</button>
+		</header>
+		<div class="container">
+		    <div class="intro">
+			    <p class="title-atas">Hallo,saya Thio Rivaldi Gunawan pemilik website</p>
+				<p class="description">Saya seseorang yang mencintai rumus.</p>
+				<img src="foto.jpg" alt="thio" class="img-foto"/>
+		    </div>
+	    <div class="parallax">
+		    <div class="tentang">
+			    <p class="title">Pencinta Rumus</p>
+				<p class="description">Rumus adalah not nada terindah.</p>
+				<div class="mt-10">
+				    <button class="btn" onclick="redirwhatsapp()">mari kerjasama</button>
+				</div>
+		    </div>
+			<div class="container">
+				<div class="card" id="tentang">
+					<div class="card-item">
+						<img src="komputer.jpg" alt="icon 1" class="icon"/>
+						<p class="card-title">Programer</p>
+						<p class="card-description">Bagikan saya beberapa kertas yg bernilai jual beli maka web kalian akan jadi.</p> 
+					</div>
+					<div class="card-item">
+						<img src="kopi.jpg" alt="icon 2" class="icon"/>
+						<p class="card-title">Slogan</p>
+						<p class="card-description">beberapa gelas kopi akan membuat mata saya melek untuk pemograman.</p> 
+					</div>
+					<div class="card-item">
+						<img src="rumus.jpg" alt="icon 3"class="icon"/>
+						<p class="card-title">Pencinta Rumus</p>
+						<p class="card-description">Rumus adalah not nada terindah dalam hidup ku dan terus seperti itu selamanya.</p> 
+					</div>
+				</div>
+		    </div>
+			<footer>
+				<p class="title-footer">&COPY; Thio Rivaldi Gunawan 2023</p>
+			</footer>
+			<script>
+				function refreshPage(){
+					location.reload(true);
+				}
+				function redirinstagram(){
+					window.location.href = "https://instagram.com/pencinta_rumus?igshid=MzNlNGNkZWQ4Mg=="
+				}
+				function redirwhatsapp(){
+					window.location.href = "https://wa.me/+6283800810475"
+				}
+			</script>
+    </body>
+</html>
